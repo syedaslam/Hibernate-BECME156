@@ -51,7 +51,8 @@ public class TollywoodDAO_2 {
 		actor1.setMovie(movie);
 		actor2.setMovie(movie);
 
-		director.setMovies(list);
+		movie4.setDirector(director);
+		movie5.setDirector(director);
 
 		sess.save(actor1);
 		sess.save(actor2);
